@@ -7,7 +7,7 @@ excerpt: 'Directed links in cash flow networks affect the cross-section of risk 
 date: 2024-02-17
 venue: 'GitHub Journal of Bugs'
 paperurl: 'https://doi.org/10.1093/rof/rfaa035'
-citation: 'Branger, Konermann, Meinerding, Schlag (2021): &quot;Equilibrium Asset Pricing in Directed Networks,&quot; <i>GitHub Review of Finance</i>. 25(3), 777-818.'
+citation: 'Branger, Konermann, Meinerding, Schlag (2021): &quot;Equilibrium Asset Pricing in Directed Networks,&quot; <i>Review of Finance</i>. 25(3), 777-818.'
 ---
 
 Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
