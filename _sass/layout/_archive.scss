@@ -244,18 +244,31 @@
   }
 }
 
-/* Compact publication entries */
+/* Publication entries: one self-contained block per paper */
 .pub {
-  margin-bottom: 1.4em;
+  margin: 0 0 2em;
+  padding: 0.1em 0 0.1em 1em;
+  border-left: 3px solid var(--global-base-color);
 
   p { margin: 0; }
 
-  &__title { font-weight: bold; }
+  &__title {
+    font-weight: bold;
+    font-size: $type-size-4 * 0.95;
+    line-height: 1.3;
+    margin-bottom: 0.35em !important;
+  }
 
-  &__meta { color: var(--global-text-color-light); }
+  &__meta {
+    color: var(--global-text-color-light);
+    line-height: 1.5;
+  }
 
   &__abstract {
-    margin-top: 0.4em;
+    margin-top: 0.6em !important;
+    padding-top: 0.6em;
+    border-top: 1px solid var(--global-border-color);
     font-size: $type-size-6 * 1.15;
+    line-height: 1.55;
   }
 }
