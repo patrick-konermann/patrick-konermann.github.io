@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Working Papers"
+permalink: /working_papers/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% if post.category == "conferences" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
