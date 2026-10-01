@@ -8,7 +8,7 @@ date: 2013-01-01
 venue: 'Review of Financial Economics'
 paperurl: 'https://doi.org/10.1016/j.rfe.2012.08.001'
 link: 'https://doi.org/10.1016/j.rfe.2012.08.001'
-coauthors: 'Christoph Meinerding, Olga Sedova'
+coauthors: 'Christoph Meinerding (Goethe University Frankfurt), Olga Sedova (University of Muenster)'
 details: '22(1), 36–46'
 ---
 

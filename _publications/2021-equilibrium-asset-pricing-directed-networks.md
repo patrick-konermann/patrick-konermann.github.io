@@ -8,6 +8,6 @@ date: 2021-05-01
 venue: 'Review of Finance'
 paperurl: 'https://doi.org/10.1093/rof/rfaa035'
 link: 'https://doi.org/10.1093/rof/rfaa035'
-coauthors: 'Nicole Branger, Christoph Meinerding, Christian Schlag'
+coauthors: 'Nicole Branger (University of Muenster), Christoph Meinerding (Deutsche Bundesbank), Christian Schlag (Goethe University Frankfurt)'
 details: '25(3), 777–818'
 ---
