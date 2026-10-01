@@ -1,0 +1,15 @@
+<div class="pub">
+  <p class="pub__title">
+    {% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+  </p>
+  {% if post.coauthors %}<p class="pub__meta">with {{ post.coauthors }}</p>{% endif %}
+  <p class="pub__meta">
+    {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.details %}, {{ post.details }}{% endif %}{% if post.status != "working" %}, {{ post.date | date: "%Y" }}{% endif %}
+  </p>
+  {% if post.excerpt %}
+  <details class="pub__abstract">
+    <summary>Abstract</summary>
+    <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+  </details>
+  {% endif %}
+</div>

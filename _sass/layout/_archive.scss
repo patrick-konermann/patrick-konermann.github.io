@@ -243,3 +243,29 @@
     }
   }
 }
+
+/* Compact publication entries */
+.pub {
+  margin-bottom: 1.4em;
+
+  p { margin: 0; }
+
+  &__title { font-weight: bold; }
+
+  &__meta { color: var(--global-text-color-light); }
+
+  &__abstract {
+    margin-top: 0.3em;
+
+    summary {
+      cursor: pointer;
+      color: var(--global-link-color);
+      font-size: $type-size-6 * 1.15;
+    }
+
+    p {
+      margin-top: 0.4em;
+      font-size: $type-size-6 * 1.15;
+    }
+  }
+}

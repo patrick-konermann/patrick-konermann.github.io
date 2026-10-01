@@ -8,6 +8,6 @@ date: 2021-05-01
 venue: 'Review of Finance'
 paperurl: 'https://doi.org/10.1093/rof/rfaa035'
 link: 'https://doi.org/10.1093/rof/rfaa035'
-paperlabel: 'View at publisher (DOI)'
-citation: 'Branger, Konermann, Meinerding, Schlag (2021): &quot;Equilibrium Asset Pricing in Directed Networks,&quot; <i>Review of Finance</i>. 25(3), 777-818.'
+coauthors: 'Nicole Branger, Christoph Meinerding, Christian Schlag'
+details: '25(3), 777–818'
 ---
