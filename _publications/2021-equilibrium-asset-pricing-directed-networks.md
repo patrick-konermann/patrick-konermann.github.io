@@ -20,5 +20,8 @@ coauthors:
     url: https://sites.google.com/site/chschlagfinance/home
 ssrn: '2521434'
 appendix: '/files/equilibrium-asset-pricing-directed-networks-online-appendix.pdf'
+series:
+  - SAFE Working Paper No. 74
+  - Bundesbank Discussion Paper No. 37/2018
 details: '25(3), 777–818'
 ---

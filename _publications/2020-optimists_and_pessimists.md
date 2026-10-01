@@ -17,5 +17,7 @@ coauthors:
     url: https://sites.google.com/site/chschlagfinance/home
 ssrn: '2356502'
 appendix: '/files/optimists-and-pessimists-online-appendix.pdf'
+series:
+  - SAFE Working Paper No. 252
 details: '55(8), 2466–2499'
 ---
