@@ -1,0 +1,22 @@
+/* ==========================================================================
+    BI THEME - DARK VERSION
+    Colours from the BI design manual (https://design.bi.no)
+    ========================================================================== */
+html[data-theme="dark"] {
+    --global-base-color                 : #9ec0f1;  // Subtle Blue
+    --global-bg-color                   : #002341;  // Strong Blue
+    --global-footer-bg-color            : #002341;
+    --global-border-color               : #083a76;
+    --global-dark-border-color          : #0c468f;
+    --global-code-background-color      : #042f5b;
+    --global-code-text-color            : #d9e6f9;
+    --global-fig-caption-color          : #b2cdf4;
+    --global-link-color                 : #9ec0f1;  // Subtle Blue
+    --global-link-color-hover           : #ffde55;  // Gold
+    --global-link-color-visited         : #b2cdf4;
+    --global-masthead-link-color        : #ffffff;
+    --global-masthead-link-color-hover  : #ffde55;
+    --global-text-color                 : #ffffff;
+    --global-text-color-light           : #d9e6f9;
+    --global-thead-color                : #042f5b;
+}

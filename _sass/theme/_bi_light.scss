@@ -1,0 +1,44 @@
+/* ==========================================================================
+    BI THEME - LIGHT VERSION
+    Colours from the BI design manual (https://design.bi.no)
+    ========================================================================== */
+$primary-color              : #093f82;  // Default Blue
+$gray                       : #597694;  // Accent Gray
+$dark-gray                  : #303f4f;  // Default Gray
+$darker-gray                : #222d38;  // Strong Gray
+$light-gray                 : #acbbca;
+$lighter-gray               : #e4e8ed;
+
+$danger-color               : #ee5f5b;
+$info-color                 : #093f82;
+$notice-color               : #597694;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+:root {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #fff;
+    --global-footer-bg-color            : #f5f7fa;  // Muted Gray
+    --global-border-color               : #{$lighter-gray};
+    --global-dark-border-color          : #c8d1db;
+    --global-code-background-color      : #f5f7fa;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : #{$gray};
+    --global-link-color                 : #093f82;  // Default Blue
+    --global-link-color-hover           : #0a64ff;  // Accent Blue
+    --global-link-color-visited         : #083a76;
+    --global-masthead-link-color        : #002341;  // Strong Blue
+    --global-masthead-link-color-hover  : #0a64ff;
+    --global-text-color                 : #{$dark-gray};
+    --global-text-color-light           : #{$gray};
+    --global-thead-color                : #d9e6f9;  // Muted Blue
+}

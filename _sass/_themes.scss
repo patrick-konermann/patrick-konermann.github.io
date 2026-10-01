@@ -15,7 +15,8 @@ $indent-var                 : 1.3em;
 
 /* System typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+/* Arial: BI's fallback for the licensed Museo Sans (design.bi.no/typography) */
+$sans-serif                 : Arial, "Helvetica Neue", Helvetica, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* Sans serif typefaces */
@@ -41,7 +42,7 @@ $type-size-8                : 0.625em;  // ~10px
 
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$caption-font-family        : $sans-serif;
 
 /* ==========================================================================
    Breakpoints

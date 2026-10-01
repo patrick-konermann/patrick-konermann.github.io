@@ -94,3 +94,16 @@
     }
   }
 }
+
+/* BI logo: positive version in light mode, negative in dark mode */
+.page__footer-logo {
+  margin: 1em 0;
+  text-align: center;
+
+  .bi-logo--dark { display: none; }
+}
+
+html[data-theme="dark"] .page__footer-logo {
+  .bi-logo--light { display: none; }
+  .bi-logo--dark { display: inline; }
+}
