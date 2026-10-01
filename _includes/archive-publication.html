@@ -2,7 +2,11 @@
   <p class="pub__title">
     {% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
   </p>
-  {% if post.coauthors %}<p class="pub__meta">with {{ post.coauthors }}</p>{% endif %}
+  {% if post.coauthors %}
+    {% assign names = post.coauthors | split: ", " %}
+    {% capture coauthor_line %}{% if names.size == 1 %}{{ names[0] }}{% elsif names.size == 2 %}{{ names[0] }} and {{ names[1] }}{% else %}{% for n in names %}{% if forloop.last %}and {{ n }}{% else %}{{ n }}, {% endif %}{% endfor %}{% endif %}{% endcapture %}
+  <p class="pub__meta">with {{ coauthor_line }}</p>
+  {% endif %}
   {% if post.status != "working" %}
   <p class="pub__meta">
     {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.details %}, {{ post.details }}{% endif %}, {{ post.date | date: "%Y" }}
