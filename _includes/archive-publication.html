@@ -3,9 +3,11 @@
     {% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
   </p>
   {% if post.coauthors %}<p class="pub__meta">with {{ post.coauthors }}</p>{% endif %}
+  {% if post.status != "working" %}
   <p class="pub__meta">
-    {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.details %}, {{ post.details }}{% endif %}{% if post.status != "working" %}, {{ post.date | date: "%Y" }}{% endif %}
+    {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.details %}, {{ post.details }}{% endif %}, {{ post.date | date: "%Y" }}
   </p>
+  {% endif %}
   {% if post.excerpt %}
   <p class="pub__abstract"><strong>Abstract.</strong> {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
   {% endif %}
