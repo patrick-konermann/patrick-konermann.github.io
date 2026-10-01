@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-I am an Associate Professor of Finance at BI Norwegian Business School in Oslo.
+I am an Associate Professor of Finance at BI Norwegian Business School in Oslo, Norway.
 
 **Research Interests:** Asset Pricing Theory, Heterogeneous Agent models, Financial Networks, and Market Incompleteness.
