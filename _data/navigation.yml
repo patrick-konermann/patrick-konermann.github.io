@@ -14,8 +14,8 @@ main:
   - title: "Working papers"
     url: /working_papers/    
     
-  # - title: "Teaching"
-  #   url: /teaching/
+  - title: "Teaching"
+    url: /teaching/
 
   - title: "CV"
     url: /files/CV_Konermann.pdf
