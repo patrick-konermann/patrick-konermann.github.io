@@ -8,6 +8,14 @@ date: 2020-12-01
 venue: 'Journal of Financial and Quantitative Analysis'
 paperurl: 'https://doi.org/10.1017/S002210901900070X'
 link: 'https://doi.org/10.1017/S002210901900070X'
-coauthors: 'Nicole Branger (University of Muenster), Christian Schlag (Goethe University Frankfurt)'
+coauthors:
+  - name: Nicole Branger
+    affil: University of Muenster
+    url: http://sites.google.com/site/nicolebranger01/Home
+  - name: Christian Schlag
+    affil: Goethe University Frankfurt
+    url: https://sites.google.com/site/chschlagfinance/home
+ssrn: '2356502'
+appendix: '/files/optimists-and-pessimists-online-appendix.pdf'
 details: '55(8), 2466–2499'
 ---

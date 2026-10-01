@@ -3,14 +3,17 @@
     {% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
   </p>
   {% if post.coauthors %}
-    {% assign names = post.coauthors | split: ", " %}
-    {% capture coauthor_line %}{% if names.size == 1 %}{{ names[0] }}{% elsif names.size == 2 %}{{ names[0] }} and {{ names[1] }}{% else %}{% for n in names %}{% if forloop.last %}and {{ n }}{% else %}{{ n }}, {% endif %}{% endfor %}{% endif %}{% endcapture %}
+    {% assign n = post.coauthors.size %}
+    {% capture coauthor_line %}{% for c in post.coauthors %}{% if forloop.first %}{% elsif forloop.last %}{% if n > 2 %}, and {% else %} and {% endif %}{% else %}, {% endif %}{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% if c.affil %} ({{ c.affil }}){% endif %}{% endfor %}{% endcapture %}
   <p class="pub__meta">with {{ coauthor_line }}</p>
   {% endif %}
   {% if post.status != "working" %}
   <p class="pub__meta">
     {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.details %}, {{ post.details }}{% endif %}, {{ post.date | date: "%Y" }}
   </p>
+  {% endif %}
+  {% if post.ssrn or post.appendix %}
+  <p class="pub__meta pub__links">{% if post.ssrn %}<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ post.ssrn }}">SSRN</a>{% endif %}{% if post.ssrn and post.appendix %} &middot; {% endif %}{% if post.appendix %}<a href="{{ post.appendix }}">Online appendix</a>{% endif %}</p>
   {% endif %}
   {% if post.excerpt %}
   <p class="pub__abstract"><strong>Abstract.</strong> {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>

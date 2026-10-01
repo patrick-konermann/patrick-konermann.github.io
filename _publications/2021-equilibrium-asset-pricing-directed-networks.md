@@ -8,6 +8,17 @@ date: 2021-05-01
 venue: 'Review of Finance'
 paperurl: 'https://doi.org/10.1093/rof/rfaa035'
 link: 'https://doi.org/10.1093/rof/rfaa035'
-coauthors: 'Nicole Branger (University of Muenster), Christoph Meinerding (Deutsche Bundesbank), Christian Schlag (Goethe University Frankfurt)'
+coauthors:
+  - name: Nicole Branger
+    affil: University of Muenster
+    url: http://sites.google.com/site/nicolebranger01/Home
+  - name: Christoph Meinerding
+    affil: Deutsche Bundesbank
+    url: https://www.sites.google.com/site/meinerding/home
+  - name: Christian Schlag
+    affil: Goethe University Frankfurt
+    url: https://sites.google.com/site/chschlagfinance/home
+ssrn: '2521434'
+appendix: '/files/equilibrium-asset-pricing-directed-networks-online-appendix.pdf'
 details: '25(3), 777–818'
 ---
