@@ -7,5 +7,7 @@ excerpt: 'We study the effects of market incompleteness on speculation, investor
 date: 2020-12-01
 venue: 'Journal of Financial and Quantitative Analysis'
 paperurl: 'https://doi.org/10.1017/S002210901900070X'
+link: 'https://doi.org/10.1017/S002210901900070X'
+paperlabel: 'View at publisher (DOI)'
 citation: 'Branger, Konermann, Schlag (2021): &quot;Optimists and Pessimists in (In)Complete Markets,&quot; <i>Journal of Financial and Quantitative Analysis</i>. 55(8), 2466-2499.'
 ---

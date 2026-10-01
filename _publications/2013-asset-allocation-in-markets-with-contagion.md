@@ -7,6 +7,8 @@ excerpt: 'We study the impact of financial contagion on the dynamic asset alloca
 date: 2013-01-01
 venue: 'Review of Financial Economics'
 paperurl: 'https://doi.org/10.1016/j.rfe.2012.08.001'
+link: 'https://doi.org/10.1016/j.rfe.2012.08.001'
+paperlabel: 'View at publisher (DOI)'
 citation: 'Konermann, Meinerding, Sedova (2013): &quot;Asset Allocation in Markets with Contagion: The Interplay between Volatilities, Jump Intensities, and Correlations,&quot; <i>Review of Financial Economics</i>. 22(1), 36-46.'
 ---
 
