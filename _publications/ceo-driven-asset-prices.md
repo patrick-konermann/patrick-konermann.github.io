@@ -13,5 +13,6 @@ coauthors:
   - name: Alessandro Graniero
     affil: BI
     url: https://sites.google.com/site/alessandrograniero
+ssrn: '3674022'
 status: working
 ---
