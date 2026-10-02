@@ -131,7 +131,7 @@
 {% endif %}
 
 <script type="application/ld+json">
-{% assign same_as = "" | split: "" %}{% if site.author.orcid %}{% assign same_as = same_as | push: site.author.orcid %}{% endif %}{% if site.author.ssrn %}{% assign same_as = same_as | push: site.author.ssrn %}{% endif %}{% if site.author.linkedin %}{% assign same_as = same_as | push: site.author.linkedin %}{% endif %}{% if site.author.employer_url %}{% assign same_as = same_as | push: site.author.employer_url %}{% endif %}
+{% assign same_as = "" | split: "" %}{% if site.author.orcid %}{% assign same_as = same_as | push: site.author.orcid %}{% endif %}{% if site.author.ssrn %}{% assign same_as = same_as | push: site.author.ssrn %}{% endif %}{% if site.author.linkedin %}{% assign linkedin_url = "https://www.linkedin.com/in/" | append: site.author.linkedin %}{% assign same_as = same_as | push: linkedin_url %}{% endif %}{% if site.author.employer_url %}{% assign same_as = same_as | push: site.author.employer_url %}{% endif %}
 {
   "@context": "https://schema.org",
   "@type": "Person",

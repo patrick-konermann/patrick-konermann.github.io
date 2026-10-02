@@ -37,7 +37,7 @@ author:
   # Repositories and software development
 
   # Social media
-  linkedin         : "https://www.linkedin.com/in/patrick-konermann" # Username
+  linkedin         : "patrick-konermann" # Username (the template adds https://www.linkedin.com/in/)
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
