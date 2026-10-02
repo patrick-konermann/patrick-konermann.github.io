@@ -55,6 +55,9 @@ atom_feed:
   hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
+# Search engine verification
+google_site_verification : "EFj2B4EkGnPlViT9Tc5Z9Pnfl18Hi_3fr8I97lERxos"
+
 # Social Sharing
 og_image                 : "profile.jpg"  # in /images/, used for link previews
 og_description           : "Patrick Konermann is an Associate Professor of Finance at BI Norwegian Business School in Oslo, Norway. His research is in asset pricing theory, heterogeneous agent models, financial networks, and market incompleteness."
