@@ -236,12 +236,9 @@
     display: block;
   }
 
+  /* The "Follow" button is hidden on all screen sizes */
   button {
-    margin-bottom: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
+    display: none;
   }
 }
 
