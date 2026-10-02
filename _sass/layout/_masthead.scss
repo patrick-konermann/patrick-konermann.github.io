@@ -24,17 +24,22 @@
     width: 100%;
   }
 
+  /* BI logo (negative/white version, on the dark blue background) */
   &__logo {
-    display: none;
+    position: absolute;
+    top: 50%;
+    right: calc(1em + 3.2rem); /* phones: sits just left of the menu button */
+    transform: translateY(-50%);
+    line-height: 0;
+    z-index: 11;
+
+    .bi-logo {
+      height: 24px;
+      width: auto;
+    }
 
     @media (min-width: 600px) {
-      display: block;
-      position: absolute;
-      top: 50%;
-      right: 1em;
-      transform: translateY(-50%);
-      line-height: 0;
-      z-index: 11;
+      right: 1em; /* upper right corner */
 
       .bi-logo { height: 30px; }
     }
