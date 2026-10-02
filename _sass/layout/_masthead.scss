@@ -36,7 +36,7 @@
       line-height: 0;
       z-index: 11;
 
-      .bi-logo { height: 34px; }
+      .bi-logo { height: 30px; }
     }
   }
 
@@ -52,8 +52,13 @@
     }
 
     @media (min-width: 1000px) {
-      /* wide screens: the menu ends well before the logo, no room needed */
+      /* wide screens: no reserved room; menu links sit a little closer together
+         so the whole menu ends well before the logo */
       padding-right: 1em;
+
+      .greedy-nav a { margin: 0 0.75rem; }
+      .greedy-nav .visible-links li:first-child a { margin-left: 0; }
+      .greedy-nav .visible-links li:last-child a { margin-right: 0; }
     }
 
     font-family: $sans-serif-narrow;
