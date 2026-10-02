@@ -274,6 +274,11 @@
     text-justify: inter-word;
     hyphens: auto;
     -webkit-hyphens: auto;
+
+    /* Justified text leaves large word gaps on narrow screens */
+    @media (max-width: 600px) {
+      text-align: left;
+    }
   }
 }
 
