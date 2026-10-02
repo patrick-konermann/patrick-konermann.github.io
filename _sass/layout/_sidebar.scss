@@ -198,6 +198,7 @@
     /* icon and text side by side; long text wraps next to the icon */
     display: flex;
     align-items: flex-start;
+    white-space: normal; /* allow long text to wrap (list items default to nowrap) */
 
     i { flex: 0 0 auto; margin-top: 0.2em; }
     a, span { flex: 1 1 auto; min-width: 0; display: block; }
