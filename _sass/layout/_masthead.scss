@@ -51,6 +51,11 @@
       padding-right: 6.5rem;
     }
 
+    @media (min-width: 1000px) {
+      /* wide screens: the menu ends well before the logo, no room needed */
+      padding-right: 1em;
+    }
+
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
