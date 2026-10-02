@@ -195,7 +195,12 @@
 .sidebar .author__desktop {
   display: none;
   @media screen and (min-width: 1024px) {
-    display: block;
+    /* icon and text side by side; long text wraps next to the icon */
+    display: flex;
+    align-items: flex-start;
+
+    i { flex: 0 0 auto; margin-top: 0.2em; }
+    a, span { flex: 1 1 auto; min-width: 0; display: block; }
   }
 }
 
