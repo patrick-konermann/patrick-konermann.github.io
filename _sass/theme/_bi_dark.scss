@@ -1,8 +1,9 @@
 /* ==========================================================================
-    BI THEME - DARK VERSION
+    BI THEME - DARK VERSION (the only theme in use; loaded after the light
+    file so these values override it)
     Colours from the BI design manual (https://design.bi.no)
     ========================================================================== */
-html[data-theme="dark"] {
+:root {
     --global-base-color                 : #9ec0f1;  // Subtle Blue
     --global-bg-color                   : #002341;  // Strong Blue
     --global-footer-bg-color            : #002341;

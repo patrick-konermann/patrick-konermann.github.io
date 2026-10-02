@@ -95,17 +95,10 @@
   }
 }
 
-/* BI logo: positive version in light mode, negative in dark mode */
+/* BI logo: negative (white) version on the dark blue background */
 .bi-logo {
   width: auto;
   max-width: 100%;
-}
-
-.bi-logo--dark { display: none; }
-
-html[data-theme="dark"] {
-  .bi-logo--light { display: none; }
-  .bi-logo--dark { display: inline; }
 }
 
 /* Footer logo: only on small screens (the masthead shows it on larger ones) */
