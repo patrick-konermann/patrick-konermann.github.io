@@ -36,7 +36,7 @@
       line-height: 0;
       z-index: 11;
 
-      .bi-logo { height: 40px; }
+      .bi-logo { height: 34px; }
     }
   }
 
@@ -48,7 +48,7 @@
 
     @media (min-width: 600px) {
       /* reserve room for the logo so the menu never runs underneath it */
-      padding-right: 9em;
+      padding-right: 6.5rem;
     }
 
     font-family: $sans-serif-narrow;
