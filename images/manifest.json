@@ -1,5 +1,8 @@
 {
-	"name": "OOjs UI icon academic-progressive",
+	"name": "Patrick Konermann",
+	"short_name": "P. Konermann",
+	"theme_color": "#002341",
+	"background_color": "#002341",
 	"icons": [
 		{
 			"src": "/images/favicon-192x192.png",
