@@ -96,20 +96,26 @@
 }
 
 /* BI logo: positive version in light mode, negative in dark mode */
+.bi-logo {
+  width: auto;
+  max-width: 100%;
+}
+
+.bi-logo--dark { display: none; }
+
+html[data-theme="dark"] {
+  .bi-logo--light { display: none; }
+  .bi-logo--dark { display: inline; }
+}
+
+/* Footer logo: only on small screens (the masthead shows it on larger ones) */
 .page__footer-logo {
   margin: 1em 0;
   text-align: center;
 
-  .bi-logo {
-    height: 44px;
-    width: auto;
-    max-width: 100%;
+  .bi-logo { height: 44px; }
+
+  @media (min-width: 600px) {
+    display: none;
   }
-
-  .bi-logo--dark { display: none; }
-}
-
-html[data-theme="dark"] .page__footer-logo {
-  .bi-logo--light { display: none; }
-  .bi-logo--dark { display: inline; }
 }

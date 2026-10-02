@@ -24,10 +24,33 @@
     width: 100%;
   }
 
+  &__logo {
+    display: none;
+
+    @media (min-width: 600px) {
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 1em;
+      transform: translateY(-50%);
+      line-height: 0;
+      z-index: 11;
+
+      .bi-logo { height: 40px; }
+    }
+  }
+
   &__inner-wrap {
     @include container;
     @include clearfix;
+    position: relative;
     padding: 0.5em 1em;
+
+    @media (min-width: 600px) {
+      /* reserve room for the logo so the menu never runs underneath it */
+      padding-right: 9em;
+    }
+
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
