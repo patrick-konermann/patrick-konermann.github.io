@@ -1,6 +1,6 @@
 <div class="pub">
   <p class="pub__title">
-    {% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+    {% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% elsif post.status == "working" and post.ssrn %}<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ post.ssrn }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
   </p>
   {% if post.coauthors %}
     {% assign n = post.coauthors.size %}
@@ -12,8 +12,9 @@
     {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.details %}, {{ post.details }}{% endif %}, {{ post.date | date: "%Y" }}
   </p>
   {% endif %}
-  {% if post.ssrn or post.appendix or post.series %}
-  {% capture links %}{% if post.ssrn %}<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ post.ssrn }}">SSRN</a>{% endif %}{% if post.appendix %}{% if post.ssrn %} &middot; {% endif %}<a href="{{ post.appendix }}">Online appendix</a>{% endif %}{% for x in post.series %}{% if post.ssrn or post.appendix or forloop.index > 1 %} &middot; {% endif %}{{ x }}{% endfor %}{% endcapture %}
+  {% assign ssrn_id = "" %}{% unless post.status == "working" %}{% assign ssrn_id = post.ssrn %}{% endunless %}
+  {% if ssrn_id != "" or post.appendix or post.series %}
+  {% capture links %}{% if ssrn_id != "" %}<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ ssrn_id }}">SSRN</a>{% endif %}{% if post.appendix %}{% if ssrn_id != "" %} &middot; {% endif %}<a href="{{ post.appendix }}">Online appendix</a>{% endif %}{% for x in post.series %}{% if ssrn_id != "" or post.appendix or forloop.index > 1 %} &middot; {% endif %}{{ x }}{% endfor %}{% endcapture %}
   <p class="pub__meta pub__links">{{ links }}</p>
   {% endif %}
   {% if post.excerpt %}
