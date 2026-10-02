@@ -330,4 +330,36 @@
     text-decoration: none;
     &:hover { text-decoration: underline; }
   }
+
+  /* Phones: title on its own line, level and years below it */
+  @media (max-width: 600px) {
+    thead { display: none; }
+
+    tbody tr {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0.6em 0;
+      border-bottom: 1px solid var(--global-border-color);
+    }
+
+    tbody tr:last-child { border-bottom: 0; }
+
+    td {
+      width: auto !important;
+      padding: 0;
+      border: 0;
+    }
+
+    td:first-child {
+      flex: 0 0 100%;
+      margin-bottom: 0.15em;
+    }
+
+    td:nth-child(2) {
+      margin-right: 0.8em;
+      color: var(--global-text-color-light);
+    }
+
+    td:nth-child(3) { color: var(--global-text-color-light); }
+  }
 }
