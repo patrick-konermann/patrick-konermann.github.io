@@ -9,6 +9,6 @@ redirect_from:
   - /about.html
 ---
 
-I am an Associate Professor of Finance at BI Norwegian Business School in Oslo, Norway.
+Patrick Konermann is an Associate Professor in the Department of Finance at BI Norwegian Business School.
 
 **Research Interests:** Asset Pricing Theory, Heterogeneous Agent models, Financial Networks, and Market Incompleteness.
