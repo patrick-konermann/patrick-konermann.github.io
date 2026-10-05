@@ -1,7 +1,7 @@
 <div class="pub">
-  <p class="pub__title">
+  <h2 class="pub__title">
     {% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% elsif post.status == "working" and post.ssrn %}<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ post.ssrn }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
-  </p>
+  </h2>
   {% if post.coauthors %}
     {% assign n = post.coauthors.size %}
     {% capture coauthor_line %}{% for c in post.coauthors %}{% if forloop.first %}{% elsif forloop.last %}{% if n > 2 %}, and {% else %} and {% endif %}{% else %}, {% endif %}{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% if c.affil %} ({{ c.affil }}){% endif %}{% endfor %}{% endcapture %}

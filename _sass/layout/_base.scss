@@ -359,7 +359,59 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     .page__share,
     .page__related,
     .ads,
-    .page__footer {
+    .page__footer,
+    .skip-to-content {
       display: none;
     }
+
+    /* The site is light-on-dark on screen; browsers do not print backgrounds,
+       so print dark text on white instead of invisible white text. */
+    :root {
+      color-scheme: light;
+      --global-bg-color: #fff;
+      --global-footer-bg-color: #fff;
+      --global-text-color: #000;
+      --global-text-color-light: #333;
+      --global-base-color: #000;
+      --global-link-color: #000;
+      --global-link-color-hover: #000;
+      --global-link-color-visited: #000;
+      --global-border-color: #bbb;
+      --global-dark-border-color: #888;
+    }
+
+    html,
+    body {
+      background: #fff !important;
+      color: #000 !important;
+    }
+
+    /* the script adds spacing for the fixed menu and footer on screen */
+    body {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .sidebar {
+      position: static !important;
+      height: auto !important;
+      overflow: visible !important;
+      padding-top: 0 !important;
+    }
+
+    .pub,
+    .course {
+      break-inside: avoid;
+    }
   }
+
+/* Respect the "reduce motion" setting */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

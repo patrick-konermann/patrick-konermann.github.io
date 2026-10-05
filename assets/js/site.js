@@ -69,6 +69,7 @@
         if (breaks.length < 1) {
           btn.classList.add('hidden');
           btn.classList.remove('close');
+          btn.setAttribute('aria-expanded', 'false');
           hlinks.classList.add('hidden');
         }
       }
@@ -86,6 +87,7 @@
     btn.addEventListener('click', function () {
       hlinks.classList.toggle('hidden');
       btn.classList.toggle('close');
+      btn.setAttribute('aria-expanded', hlinks.classList.contains('hidden') ? 'false' : 'true');
     });
   }
 
