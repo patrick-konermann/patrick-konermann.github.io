@@ -40,21 +40,8 @@ author:
   # Social media
   linkedin         : "patrick-konermann" # Username (the template adds https://www.linkedin.com/in/)
 
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  manuscripts:
-    title: 'Publications'    
-  conferences:
-    title: 'Working Papers'
-
 # Site Settings
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-atom_feed:
-  hide                   : true     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
 
 # Search engine verification
 google_site_verification : "EFj2B4EkGnPlViT9Tc5Z9Pnfl18Hi_3fr8I97lERxos"
@@ -65,7 +52,6 @@ og_description           : "Patrick Konermann is an Associate Professor in the D
 
 # Reading Files
 include:
-  - .htaccess
   - _pages
   - files
 exclude:
@@ -163,24 +149,6 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:

@@ -11,10 +11,10 @@ link: 'https://doi.org/10.1093/rof/rfaa035'
 coauthors:
   - name: Nicole Branger
     affil: University of Muenster
-    url: http://sites.google.com/site/nicolebranger01/Home
+    url: https://sites.google.com/site/nicolebranger01/Home
   - name: Christoph Meinerding
     affil: Deutsche Bundesbank
-    url: https://www.sites.google.com/site/meinerding/home
+    url: https://sites.google.com/site/meinerding/home
   - name: Christian Schlag
     affil: Goethe University Frankfurt
     url: https://sites.google.com/site/chschlagfinance/home

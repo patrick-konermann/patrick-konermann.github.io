@@ -9,7 +9,7 @@ venue: 'Working paper'
 coauthors:
   - name: Christoph Meinerding
     affil: Deutsche Bundesbank
-    url: https://www.sites.google.com/site/meinerding/home
+    url: https://sites.google.com/site/meinerding/home
 ssrn: '5085419'
 status: working
 ---

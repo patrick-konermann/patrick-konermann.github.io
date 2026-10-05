@@ -11,7 +11,7 @@ link: 'https://doi.org/10.1017/S002210901900070X'
 coauthors:
   - name: Nicole Branger
     affil: University of Muenster
-    url: http://sites.google.com/site/nicolebranger01/Home
+    url: https://sites.google.com/site/nicolebranger01/Home
   - name: Christian Schlag
     affil: Goethe University Frankfurt
     url: https://sites.google.com/site/chschlagfinance/home

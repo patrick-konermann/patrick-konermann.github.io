@@ -117,3 +117,38 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+/* Fallback when JavaScript does not run (blocked, or the script failed to load):
+   the menu collapse is done by JavaScript, so without it let the links wrap
+   instead of running off the screen. The inline script in <head> replaces the
+   "no-js" class on <html> with "js" right away, so this never applies normally. */
+@media (max-width: 999px) {
+  .no-js {
+    .masthead {
+      position: static;
+    }
+
+    body {
+      padding-top: 0;
+    }
+
+    .greedy-nav {
+      min-width: 0;
+
+      button {
+        display: none;
+      }
+
+      .visible-links {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+@media (max-width: 599px) {
+  .no-js .greedy-nav .visible-links li:first-child {
+    flex: 0 0 100%;
+  }
+}

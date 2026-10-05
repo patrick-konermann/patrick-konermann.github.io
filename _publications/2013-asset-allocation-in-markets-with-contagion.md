@@ -11,7 +11,7 @@ link: 'https://doi.org/10.1016/j.rfe.2012.08.001'
 coauthors:
   - name: Christoph Meinerding
     affil: Goethe University Frankfurt
-    url: https://www.sites.google.com/site/meinerding/home
+    url: https://sites.google.com/site/meinerding/home
   - name: Olga Sedova
     affil: University of Muenster
 ssrn: '1964616'
