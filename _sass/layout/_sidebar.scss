@@ -199,6 +199,23 @@
   }
 }
 
+/* Even vertical rhythm for the sidebar list: every line has the same height and
+   every entry the same gap below it (links and plain text used to differ) */
+.sidebar .author__urls {
+  li {
+    margin: 0 0 0.7em;
+    line-height: 1.45;
+  }
+
+  li:last-child { margin-bottom: 0; }
+
+  a {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
 /* keep some space between the name and the list now that the title line is gone */
 .sidebar .author__urls-wrapper {
   @media screen and (min-width: 1024px) {
