@@ -11,4 +11,4 @@ redirect_from:
 
 I am an Associate Professor in the [Department of Finance](https://www.bi.no/en/about-bi/employees/department-of-finance/patrick-konermann/) at BI Norwegian Business School.
 
-**Research Interests:** Asset Pricing Theory, Heterogeneous Agent models, Financial Networks, and Market Incompleteness.
+**Research Interests:** Asset Pricing Theory, Heterogeneous Agent Models, Financial Networks, and Market Incompleteness.
