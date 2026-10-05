@@ -199,6 +199,13 @@
   }
 }
 
+/* keep some space between the name and the list now that the title line is gone */
+.sidebar .author__urls-wrapper {
+  @media screen and (min-width: 1024px) {
+    margin-top: 0.9em;
+  }
+}
+
 .sidebar .author__desktop {
   display: none;
   @media screen and (min-width: 1024px) {
