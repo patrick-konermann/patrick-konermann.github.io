@@ -24,8 +24,9 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Patrick Konermann"
-  bio              : "Associate Professor of Finance"
+  bio              : "Associate Professor"
   location         : "Oslo, Norway"
+  department       : "Department of Finance"
   employer         : "BI Norwegian Business School"
   employer_url     : "https://www.bi.no/en/about-bi/employees/department-of-finance/patrick-konermann/"
   email            : "patrick.konermann@bi.no" 
