@@ -12,7 +12,7 @@ site_theme               : "bi"
 title                    : "Patrick Konermann"
 title_separator          : "-"
 name                     : "Patrick Konermann"
-description              : "Patrick Konermann is an Associate Professor of Finance at BI Norwegian Business School in Oslo, Norway. His research is in asset pricing theory, heterogeneous agent models, financial networks, and market incompleteness."
+description              : "Patrick Konermann is an Associate Professor in the Department of Finance at BI Norwegian Business School in Oslo, Norway. His research is in asset pricing theory, heterogeneous agent models, financial networks, and market incompleteness."
 url                      : https://patrick-konermann.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "patrick-konermann/patrick-konermann.github.io"
@@ -61,7 +61,7 @@ google_site_verification : "EFj2B4EkGnPlViT9Tc5Z9Pnfl18Hi_3fr8I97lERxos"
 
 # Social Sharing
 og_image                 : "profile.jpg"  # in /images/, used for link previews
-og_description           : "Patrick Konermann is an Associate Professor of Finance at BI Norwegian Business School in Oslo, Norway. His research is in asset pricing theory, heterogeneous agent models, financial networks, and market incompleteness."
+og_description           : "Patrick Konermann is an Associate Professor in the Department of Finance at BI Norwegian Business School in Oslo, Norway. His research is in asset pricing theory, heterogeneous agent models, financial networks, and market incompleteness."
 
 # Reading Files
 include:
