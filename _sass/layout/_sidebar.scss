@@ -199,6 +199,15 @@
   }
 }
 
+/* The name is plain text (not a heading), styled like the old h3 */
+.sidebar .author__name {
+  margin: 0;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-5;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
 /* Even vertical rhythm for the sidebar list: every line has the same height and
    every entry the same gap below it (links and plain text used to differ) */
 .sidebar .author__urls {
@@ -231,7 +240,7 @@
     align-items: flex-start;
     white-space: normal; /* allow long text to wrap (list items default to nowrap) */
 
-    i { flex: 0 0 auto; margin-top: 0.2em; }
+    .icon { flex: 0 0 auto; margin-top: 0.2em; }
     a, span { flex: 1 1 auto; min-width: 0; display: block; }
   }
 }

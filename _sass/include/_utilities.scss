@@ -188,6 +188,14 @@ body:hover .visually-hidden button {
 }
 
 /* Adjust this setting to control the space between an icon and text in the sidebar */
+.icon {
+  display: inline-block;
+  width: 1.25em;
+  height: 1em;
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
 .icon-pad-right {
   padding-right: 0.5em;
   margin-right: 0.5em;
@@ -247,7 +255,8 @@ body:hover .visually-hidden button {
   }
 
   .fa-linkedin,
-  .fa-linkedin-square {
+  .fa-linkedin-square,
+  .icon-linkedin {
     color: $linkedin-color;
   }
 
