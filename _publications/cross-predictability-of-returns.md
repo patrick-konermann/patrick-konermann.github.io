@@ -11,5 +11,7 @@ coauthors:
     affil: Deutsche Bundesbank
     url: https://sites.google.com/site/meinerding/home
 ssrn: '5085419'
+series:
+  - Bundesbank Discussion Paper No. 37/2026
 status: working
 ---
